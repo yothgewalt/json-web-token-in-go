@@ -1,0 +1,43 @@
+DELETE http://localhost:3000/api/v1/delete/hard/collection/10
+Accept: application/json
+
+###
+DELETE http://localhost:3000/api/v1/delete/soft/collection/10
+Accept: application/json
+
+###
+GET http://localhost:3000/api/v1/get/collections
+Accept: application/json
+
+###
+GET http://localhost:3000/api/v1/get/collection/10
+Accept: application/json
+
+###
+POST http://localhost:3000/api/v1/access/collection
+Content-Type: application/json
+
+{
+  "username": "einemutigeschlacht",
+  "password": "!first@14131413"
+}
+
+###
+POST http://localhost:3000/api/v1/create/collection
+Content-Type: application/json
+
+{
+  "username": "einemutigeschlacht",
+  "firstname": "yongyuth",
+  "lastname": "chuankhuntod",
+  "password": "!first@14131413",
+  "phone_number": "0641823735",
+  "email_address": "eine.schlacht@gmail.com",
+  "facebook_link": "https://www.facebook.com/yongyuth.chuankhuntod"
+}
+
+###
+GET http://localhost:3000/api/v1/receiver
+Accept: application/json
+
+###
