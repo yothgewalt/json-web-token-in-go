@@ -19,7 +19,7 @@ Content-Type: application/json
 
 {
   "username": "einemutigeschlacht",
-  "password": "!first@14131413"
+  "password": "password"
 }
 
 ###
@@ -30,8 +30,8 @@ Content-Type: application/json
   "username": "einemutigeschlacht",
   "firstname": "yongyuth",
   "lastname": "chuankhuntod",
-  "password": "!first@14131413",
-  "phone_number": "0641823735",
+  "password": "password",
+  "phone_number": "0123456789",
   "email_address": "eine.schlacht@gmail.com",
   "facebook_link": "https://www.facebook.com/yongyuth.chuankhuntod"
 }
